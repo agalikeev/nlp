@@ -10,7 +10,7 @@ import gzip, shutil
 
 CACHE_DIR = os.path.expanduser("cache/")
 MODEL_FILE = "w2v_vectors_news.txt"
-MODEL_URL = "https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/d/FylDkf2AJcxMIw"
+MODEL_URL = "https://getfile.dokpub.com/yandex/get/https://disk.yandex.ru/d/FaDZnO1IjNvjvw"
 
 def download_model(url: str = MODEL_URL) -> str | None:
     os.makedirs(CACHE_DIR, exist_ok=True)
